@@ -16,18 +16,19 @@ with open(sys.argv[2]) as f:
 	semester = sys.argv[2].split('_')[0]
 	campus = sys.argv[2].split('_')[1][:-5]
 	
-	current_data['classes']['schedule'] = []
-	for course in data:
-		class_code = course[0].encode('utf8')
+	for course in data[campus]:
+		class_code = course[0]
 		try:
 			_class = current_data['classes'][class_code]
+			print(class_code)
+			current_data['classes'][class_code]['schedule'] = []
 		except:
 			continue
 
 		schedule = []
 		for option in course[3]:
 			schedule.append(option[7])
-		current_data['classes']['schedule'].append(schedule)
+		current_data['classes'][class_code]['schedule'].append(schedule)
 
 with open(sys.argv[1], 'w') as f:
 	json_file = {
@@ -35,8 +36,7 @@ with open(sys.argv[1], 'w') as f:
 		'min_hours': current_data['min_hours'],
 		'max_hours': current_data['max_hours'],
 		'classes': current_data['classes'],
-		'final_class': current_data['final_class'],
-		'schedule': current_data['schedule']
+		'final_class': current_data['final_class']
 	}
 
 	json.dump(json_file, f)

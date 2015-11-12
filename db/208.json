@@ -1,379 +1,972 @@
 {
-	"code": 208,
-	"min_hours": 12,
-	"max_hours": 28,
-	"final_class": "INE5434",
-	"classes": {
-		"INE5453": {
-			"credits": 1,
-			"name": "Introdu\u00e7\u00e3o ao Trabalho de Conclus\u00e3o de Curso",
-			"semester": 6,
-			"prereq": [
-				"INE5417"
-			],
-			"hours": 18
-		},
-		"INE5406": {
-			"credits": 5,
-			"name": "Sistemas Digitais",
-			"semester": 2,
-			"prereq": [
-				"EEL5105"
-			],
-			"hours": 90
-		},
-		"INE5414": {
-			"credits": 4,
-			"name": "Redes de Computadores I",
-			"semester": 4,
-			"prereq": [
-				"INE5404"
-			],
-			"hours": 72
-		},
-		"INE5422": {
-			"credits": 4,
-			"name": "Redes de Computadores II",
-			"semester": 5,
-			"prereq": [
-				"INE5414"
-			],
-			"hours": 72
-		},
-		"INE5405": {
-			"credits": 5,
-			"name": "Probabilidade e Estat\u00edstica",
-			"semester": 2,
-			"prereq": [
-				"MTM5161"
-			],
-			"hours": 90
-		},
-		"INE5412": {
-			"credits": 4,
-			"name": "Sistemas Operacionais I",
-			"semester": 4,
-			"prereq": [
-				"INE5410",
-				"INE5411"
-			],
-			"hours": 72
-		},
-		"INE5434": {
-			"credits": 9,
-			"name": "Trabalho de Conclus\u00e3o de Curso II (TCC)",
-			"semester": 8,
-			"prereq": [
-				"INE5433"
-			],
-			"hours": 162
-		},
-		"INE5401": {
-			"credits": 2,
-			"name": "Introdu\u00e7\u00e3o \u00e0 Computa\u00e7\u00e3o",
-			"semester": 1,
-			"prereq": [
-				
-			],
-			"hours": 36
-		},
-		"INE5403": {
-			"credits": 6,
-			"name": "Fundamentos de Matem\u00e1tica Discreta para Computa\u00e7\u00e3o",
-			"semester": 1,
-			"prereq": [
-				
-			],
-			"hours": 108
-		},
-		"EEL5105": {
-			"credits": 5,
-			"name": "Circuitos e T\u00e9cnicas Digitais",
-			"semester": 1,
-			"prereq": [
-				
-			],
-			"hours": 90
-		},
-		"INE5410": {
-			"credits": 4,
-			"name": "Programa\u00e7\u00e3o Concorrente",
-			"semester": 3,
-			"prereq": [
-				"INE5404"
-			],
-			"hours": 72
-		},
-		"INE5418": {
-			"credits": 4,
-			"name": "Computa\u00e7\u00e3o Distribu\u00edda",
-			"semester": 5,
-			"prereq": [
-				"INE5412",
-				"INE5414"
-			],
-			"hours": 72
-		},
-		"INE5427": {
-			"credits": 4,
-			"name": "Planejamento e Gest\u00e3o de Projetos",
-			"semester": 6,
-			"prereq": [
-				"INE5417"
-			],
-			"hours": 72
-		},
-		"INE5404": {
-			"credits": 6,
-			"name": "Programa\u00e7\u00e3o Orientada a Objetos II",
-			"semester": 2,
-			"prereq": [
-				"INE5402"
-			],
-			"hours": 108
-		},
-		"INE5419": {
-			"credits": 4,
-			"name": "Engenharia de Software II",
-			"semester": 5,
-			"prereq": [
-				"INE5417"
-			],
-			"hours": 72
-		},
-		"INE5430": {
-			"credits": 4,
-			"name": "Intelig\u00eancia Artificial",
-			"semester": 6,
-			"prereq": [
-				"INE5405",
-				"INE5413",
-				"INE5416"
-			],
-			"hours": 72
-		},
-		"INE5416": {
-			"credits": 5,
-			"name": "Paradigmas de Programa\u00e7\u00e3o",
-			"semester": 4,
-			"prereq": [
-				"INE5408"
-			],
-			"hours": 90
-		},
-		"INE5421": {
-			"credits": 4,
-			"name": "Linguagens Formais e Compiladores",
-			"semester": 5,
-			"prereq": [
-				"INE5415"
-			],
-			"hours": 72
-		},
-		"INE5424": {
-			"credits": 4,
-			"name": "Sistemas Operacionais II",
-			"semester": 6,
-			"prereq": [
-				"INE5412"
-			],
-			"hours": 72
-		},
-		"INE5429": {
-			"credits": 4,
-			"name": "Seguran\u00e7a em Computa\u00e7\u00e3o",
-			"semester": 7,
-			"prereq": [
-				"INE5403",
-				"INE5414"
-			],
-			"hours": 72
-		},
-		"MTM5161": {
-			"credits": 4,
-			"name": "C\u00e1lculo A",
-			"semester": 1,
-			"prereq": [
-				
-			],
-			"hours": 72
-		},
-		"INE5431": {
-			"credits": 4,
-			"name": "Sistemas Multim\u00eddia",
-			"semester": 7,
-			"prereq": [
-				"INE5414"
-			],
-			"hours": 72
-		},
-		"INE5417": {
-			"credits": 5,
-			"name": "Engenharia de Software I",
-			"semester": 4,
-			"prereq": [
-				"INE5408"
-			],
-			"hours": 90
-		},
-		"INE5415": {
-			"credits": 4,
-			"name": "Teoria da Computa\u00e7\u00e3o",
-			"semester": 4,
-			"prereq": [
-				"INE5403",
-				"INE5408"
-			],
-			"hours": 72
-		},
-		"INE5433": {
-			"credits": 6,
-			"name": "Trabalho de Conclus\u00e3o de Curso I (TCC)",
-			"semester": 7,
-			"prereq": [
-				"INE5427",
-				"INE5453"
-			],
-			"hours": 108
-		},
-		"MTM5245": {
-			"credits": 4,
-			"name": "\u00c1lgebra Linear",
-			"semester": 3,
-			"prereq": [
-				"MTM5512"
-			],
-			"hours": 72
-		},
-		"INE5420": {
-			"credits": 4,
-			"name": "Computa\u00e7\u00e3o Gr\u00e1fica",
-			"semester": 5,
-			"prereq": [
-				"INE5408",
-				"MTM5245",
-				"MTM7174"
-			],
-			"hours": 72
-		},
-		"INE5426": {
-			"credits": 4,
-			"name": "Constru\u00e7\u00e3o de Compiladores",
-			"semester": 6,
-			"prereq": [
-				"INE5421"
-			],
-			"hours": 72
-		},
-		"INE5413": {
-			"credits": 4,
-			"name": "Grafos",
-			"semester": 4,
-			"prereq": [
-				"INE5403",
-				"INE5408"
-			],
-			"hours": 72
-		},
-		"MTM5512": {
-			"credits": 4,
-			"name": "Geometria Anal\u00edtica",
-			"semester": 2,
-			"prereq": [
-				
-			],
-			"hours": 72
-		},
-		"INE5423": {
-			"credits": 4,
-			"name": "Banco de Dados I",
-			"semester": 5,
-			"prereq": [
-				"INE5408"
-			],
-			"hours": 72
-		},
-		"INE5402": {
-			"credits": 6,
-			"name": "Programa\u00e7\u00e3o Orientada a Objetos I",
-			"semester": 1,
-			"prereq": [
-				
-			],
-			"hours": 108
-		},
-		"INE5411": {
-			"credits": 6,
-			"name": "Organiza\u00e7\u00e3o de Computadores I",
-			"semester": 3,
-			"prereq": [
-				"INE5406"
-			],
-			"hours": 108
-		},
-		"INE5425": {
-			"credits": 4,
-			"name": "Modelagem e Simula\u00e7\u00e3o",
-			"semester": 6,
-			"prereq": [
-				"INE5405"
-			],
-			"hours": 72
-		},
-		"INE5407": {
-			"credits": 3,
-			"name": "Ci\u00eancia, Tecnologia e Sociedade",
-			"semester": 2,
-			"prereq": [
-				
-			],
-			"hours": 54
-		},
-		"INE5432": {
-			"credits": 4,
-			"name": "Banco de Dados II",
-			"semester": 7,
-			"prereq": [
-				"INE5423"
-			],
-			"hours": 72
-		},
-		"INE5428": {
-			"credits": 4,
-			"name": "Inform\u00e1tica e Sociedade",
-			"semester": 7,
-			"prereq": [
-				"INE5407"
-			],
-			"hours": 72
-		},
-		"INE5408": {
-			"credits": 6,
-			"name": "Estruturas de Dados",
-			"semester": 3,
-			"prereq": [
-				"INE5404"
-			],
-			"hours": 108
-		},
-		"MTM7174": {
-			"credits": 4,
-			"name": "C\u00e1lculo B para Computa\u00e7\u00e3o",
-			"semester": 2,
-			"prereq": [
-				"MTM5161"
-			],
-			"hours": 72
-		},
-		"INE5409": {
-			"credits": 4,
-			"name": "C\u00e1lculo Num\u00e9rico para Computa\u00e7\u00e3o",
-			"semester": 3,
-			"prereq": [
-				"MTM5512",
-				"MTM7174"
-			],
-			"hours": 72
-		}
-	}
+  "classes": {
+    "INE5413": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "2.0820-2 \/ CTC-EPS001",
+            "5.1010-2 \/ CTC-EPS001"
+          ]
+        ]
+      ],
+      "name": "Grafos",
+      "semester": 4,
+      "prereq": [
+        "INE5403",
+        "INE5408"
+      ],
+      "hours": 72
+    },
+    "MTM5245": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "4.1330-2 \/ EF1-EFI204",
+            "6.1510-2 \/ EF1-EFI204"
+          ],
+          [
+            "2.1010-2 \/ CTC-CTC210",
+            "5.0730-2 \/ CTC-CTC202"
+          ],
+          [
+            "4.1010-2 \/ CTC-ENS215",
+            "6.0730-2 \/ CTC-CTC105"
+          ],
+          [
+            "2.1010-2 \/ EF1-EFI203",
+            "5.1010-2 \/ CTC-CTC302"
+          ],
+          [
+            "2.1010-2 \/ CTC-CTC209",
+            "5.1010-2 \/ CTC-CTC209"
+          ],
+          [
+            "3.1330-2 \/ CTC-EEL004",
+            "5.1330-2 \/ CTC-CTC210"
+          ],
+          [
+            "4.1510-2 \/ EF1-EFI304",
+            "6.1330-2 \/ EF1-EFI304"
+          ],
+          [
+            "3.1510-2 \/ EF1-EFI201",
+            "5.1330-2 \/ EF1-EFI201"
+          ],
+          [
+            "3.1510-2 \/ EF1-EFI203",
+            "5.1330-2 \/ EF1-EFI203"
+          ],
+          [
+            "3.1010-2 \/ EF1-EFI403",
+            "6.1010-2 \/ EF1-EFI403"
+          ],
+          [
+            "2.0730-2 \/ EF1-EFI302",
+            "6.1010-2 \/ EF1-EFI303"
+          ],
+          [
+            "2.1330-2 \/ CFH-CFH332",
+            "4.1330-2 \/ CFH-CFH332"
+          ],
+          [
+            "2.1330-2 \/ CTC-EPS003",
+            "4.1620-2 \/ CTC-CTC208"
+          ],
+          [
+            "4.1330-2 \/ EF1-EFI204",
+            "6.1510-2 \/ EF1-EFI204"
+          ]
+        ]
+      ],
+      "name": "\u00c1lgebra Linear",
+      "semester": 3,
+      "prereq": [
+        "MTM5512"
+      ],
+      "hours": 72
+    },
+    "INE5427": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "3.1010-2 \/ CTC-CTC101",
+            "5.0820-2 \/ CTC-CTC108"
+          ]
+        ]
+      ],
+      "name": "Planejamento e Gest\u00e3o de Projetos",
+      "semester": 6,
+      "prereq": [
+        "INE5417"
+      ],
+      "hours": 72
+    },
+    "INE5405": {
+      "credits": 5,
+      "schedule": [
+        [
+          [
+            "3.0730-2 \/ CTC-CTC110",
+            "5.0730-3 \/ CTC-CTC103"
+          ]
+        ]
+      ],
+      "name": "Probabilidade e Estat\u00edstica",
+      "semester": 2,
+      "prereq": [
+        "MTM5161"
+      ],
+      "hours": 90
+    },
+    "INE5407": {
+      "credits": 3,
+      "schedule": [
+        [
+          [
+            "6.1330-3 \/ CTC-CTC207"
+          ],
+          [
+            "4.1330-3 \/ CTC-CTC113"
+          ]
+        ]
+      ],
+      "name": "Ci\u00eancia, Tecnologia e Sociedade",
+      "semester": 2,
+      "prereq": [
+        
+      ],
+      "hours": 54
+    },
+    "INE5402": {
+      "credits": 6,
+      "schedule": [
+        [
+          [
+            "2.1330-3 \/ CTC-LABPCT",
+            "4.1510-3 \/ AUX-ALOCAR"
+          ],
+          [
+            "2.1330-3 \/ CTC-CTC301",
+            "4.1510-3 \/ CTC-LIICT3"
+          ],
+          [
+            "2.1510-3 \/ CTC-LIICT2",
+            "5.1510-3 \/ CTC-LIICT3"
+          ]
+        ]
+      ],
+      "name": "Programa\u00e7\u00e3o Orientada a Objetos I",
+      "semester": 1,
+      "prereq": [
+        
+      ],
+      "hours": 108
+    },
+    "INE5429": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "3.1620-2 \/ CTC-LABPCT",
+            "5.1620-2 \/ CTC-CTC101"
+          ]
+        ]
+      ],
+      "name": "Seguran\u00e7a em Computa\u00e7\u00e3o",
+      "semester": 7,
+      "prereq": [
+        "INE5403",
+        "INE5414"
+      ],
+      "hours": 72
+    },
+    "MTM7174": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "2.1010-2 \/ CTC-CTC305",
+            "4.1010-2 \/ CTC-CTC207"
+          ]
+        ]
+      ],
+      "name": "C\u00e1lculo B para Computa\u00e7\u00e3o",
+      "semester": 2,
+      "prereq": [
+        "MTM5161"
+      ],
+      "hours": 72
+    },
+    "INE5422": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "4.1330-2 \/ CTC-CTC101",
+            "6.1330-2 \/ CTC-CTC205"
+          ]
+        ]
+      ],
+      "name": "Redes de Computadores II",
+      "semester": 5,
+      "prereq": [
+        "INE5414"
+      ],
+      "hours": 72
+    },
+    "INE5423": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "3.1010-2 \/ EF1-EFI504",
+            "5.1010-2 \/ CTC-CTC105"
+          ]
+        ]
+      ],
+      "name": "Banco de Dados I",
+      "semester": 5,
+      "prereq": [
+        "INE5408"
+      ],
+      "hours": 72
+    },
+    "INE5410": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "4.1330-2 \/ CTC-LABPCT",
+            "5.0820-2 \/ CTC-CTC113"
+          ],
+          [
+            "3.0820-2 \/ CTC-LABPCT",
+            "5.0820-2 \/ CTC-CTC111"
+          ]
+        ]
+      ],
+      "name": "Programa\u00e7\u00e3o Concorrente",
+      "semester": 3,
+      "prereq": [
+        "INE5404"
+      ],
+      "hours": 72
+    },
+    "INE5408": {
+      "credits": 6,
+      "schedule": [
+        [
+          [
+            "3.1510-3 \/ CTC-ENS216",
+            "5.1510-3 \/ CTC-CTC206"
+          ]
+        ]
+      ],
+      "name": "Estruturas de Dados",
+      "semester": 3,
+      "prereq": [
+        "INE5404"
+      ],
+      "hours": 108
+    },
+    "INE5416": {
+      "credits": 5,
+      "schedule": [
+        [
+          [
+            "4.1330-2 \/ CTC-CTC111",
+            "5.0730-3 \/ CTC-LABPCT"
+          ]
+        ]
+      ],
+      "name": "Paradigmas de Programa\u00e7\u00e3o",
+      "semester": 4,
+      "prereq": [
+        "INE5408"
+      ],
+      "hours": 90
+    },
+    "INE5420": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "3.0820-2 \/ CTC-LABINF",
+            "5.0820-2 \/ CTC-LABINF"
+          ]
+        ]
+      ],
+      "name": "Computa\u00e7\u00e3o Gr\u00e1fica",
+      "semester": 5,
+      "prereq": [
+        "INE5408",
+        "MTM5245",
+        "MTM7174"
+      ],
+      "hours": 72
+    },
+    "INE5434": {
+      "credits": 9,
+      "schedule": [
+        [
+          [
+            "7.0820-2 \/ CTC-CTC111"
+          ]
+        ]
+      ],
+      "name": "Trabalho de Conclus\u00e3o de Curso II (TCC)",
+      "semester": 8,
+      "prereq": [
+        "INE5433"
+      ],
+      "hours": 162
+    },
+    "INE5404": {
+      "credits": 6,
+      "schedule": [
+        [
+          [
+            "3.0910-3 \/ AUX-ALOCAR",
+            "4.1330-3 \/ CTC-ENS217"
+          ],
+          [
+            "3.0910-3 \/ AUX-ALOCAR",
+            "6.0910-3 \/ CTC-CTC109"
+          ]
+        ]
+      ],
+      "name": "Programa\u00e7\u00e3o Orientada a Objetos II",
+      "semester": 2,
+      "prereq": [
+        "INE5402"
+      ],
+      "hours": 108
+    },
+    "INE5417": {
+      "credits": 5,
+      "schedule": [
+        [
+          [
+            "3.1330-3 \/ CTC-CTC210",
+            "4.1620-2 \/ CTC-EEL004"
+          ],
+          [
+            "3.1330-3 \/ CTC-CTC210",
+            "4.1620-2 \/ CTC-EEL004"
+          ]
+        ]
+      ],
+      "name": "Engenharia de Software I",
+      "semester": 4,
+      "prereq": [
+        "INE5408"
+      ],
+      "hours": 90
+    },
+    "INE5426": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "4.0820-2 \/ CTC-CTC306",
+            "6.1010-2 \/ CTC-CTC306"
+          ]
+        ]
+      ],
+      "name": "Constru\u00e7\u00e3o de Compiladores",
+      "semester": 6,
+      "prereq": [
+        "INE5421"
+      ],
+      "hours": 72
+    },
+    "EEL5105": {
+      "credits": 5,
+      "schedule": [
+        [
+          [
+            "2.1010-2 \/ EF1-EFI205",
+            "5.0910-3 \/ AUX-ALOCAR"
+          ],
+          [
+            "3.1510-2 \/ CTC-EEL004",
+            "6.0910-3 \/ AUX-ALOCAR"
+          ],
+          [
+            "3.1510-2 \/ CTC-EEL004",
+            "5.1330-3 \/ AUX-ALOCAR"
+          ],
+          [
+            "3.1510-3 \/ CTC-LABSDG",
+            "5.0820-2 \/ CTC-EEL004"
+          ],
+          [
+            "5.0820-2 \/ CTC-EEL004",
+            "6.1620-3 \/ CTC-LABSDG"
+          ],
+          [
+            "2.0730-5 \/ CTC-LABSDG"
+          ],
+          [
+            "3.1330-2 \/ AUX-ALOCAR",
+            "6.1330-3 \/ AUX-ALOCAR"
+          ],
+          [
+            "2.1010-2 \/ EF1-EFI205",
+            "2.1510-3 \/ CTC-LABSDG"
+          ],
+          [
+            "3.0910-3 \/ CTC-LABSDG",
+            "5.0820-2 \/ CTC-EEL004"
+          ]
+        ]
+      ],
+      "name": "Circuitos e T\u00e9cnicas Digitais",
+      "semester": 1,
+      "prereq": [
+        
+      ],
+      "hours": 90
+    },
+    "INE5430": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "3.0820-2 \/ CTC-CTC210",
+            "6.0820-2 \/ CTC-CTC302"
+          ],
+          [
+            
+          ]
+        ]
+      ],
+      "name": "Intelig\u00eancia Artificial",
+      "semester": 6,
+      "prereq": [
+        "INE5405",
+        "INE5413",
+        "INE5416"
+      ],
+      "hours": 72
+    },
+    "INE5421": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "2.1510-2 \/ CTC-CTC208",
+            "5.1510-2 \/ CTC-CTC208"
+          ]
+        ]
+      ],
+      "name": "Linguagens Formais e Compiladores",
+      "semester": 5,
+      "prereq": [
+        "INE5415"
+      ],
+      "hours": 72
+    },
+    "INE5412": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "3.1010-2 \/ CTC-CTC303",
+            "4.0820-2 \/ CTC-LABPCT"
+          ]
+        ]
+      ],
+      "name": "Sistemas Operacionais I",
+      "semester": 4,
+      "prereq": [
+        "INE5410",
+        "INE5411"
+      ],
+      "hours": 72
+    },
+    "INE5418": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "2.1330-2 \/ CTC-CTC111",
+            "4.1510-2 \/ CTC-CTC101"
+          ]
+        ]
+      ],
+      "name": "Computa\u00e7\u00e3o Distribu\u00edda",
+      "semester": 5,
+      "prereq": [
+        "INE5412",
+        "INE5414"
+      ],
+      "hours": 72
+    },
+    "INE5431": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "3.1420-2 \/ CTC-CTC303",
+            "5.1420-2 \/ CTC-CTC107"
+          ]
+        ]
+      ],
+      "name": "Sistemas Multim\u00eddia",
+      "semester": 7,
+      "prereq": [
+        "INE5414"
+      ],
+      "hours": 72
+    },
+    "INE5425": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "2.0820-2 \/ CTC-LIICT5",
+            "5.1010-2 \/ CTC-LIICT5"
+          ]
+        ]
+      ],
+      "name": "Modelagem e Simula\u00e7\u00e3o",
+      "semester": 6,
+      "prereq": [
+        "INE5405"
+      ],
+      "hours": 72
+    },
+    "INE5401": {
+      "credits": 2,
+      "schedule": [
+        [
+          [
+            "4.1330-2 \/ CTC-CTC102"
+          ]
+        ]
+      ],
+      "name": "Introdu\u00e7\u00e3o \u00e0 Computa\u00e7\u00e3o",
+      "semester": 1,
+      "prereq": [
+        
+      ],
+      "hours": 36
+    },
+    "INE5406": {
+      "credits": 5,
+      "schedule": [
+        [
+          [
+            "2.1330-3 \/ CTC-CTC201",
+            "5.1010-2 \/ CTC-LABPCT"
+          ],
+          [
+            "2.1330-3 \/ CTC-CTC201",
+            "5.1330-2 \/ CTC-LABPCT"
+          ],
+          [
+            "2.0730-3 \/ CTC-CTC205",
+            "5.0820-2 \/ AUX-ALOCAR"
+          ]
+        ]
+      ],
+      "name": "Sistemas Digitais",
+      "semester": 2,
+      "prereq": [
+        "EEL5105"
+      ],
+      "hours": 90
+    },
+    "INE5411": {
+      "credits": 6,
+      "schedule": [
+        [
+          [
+            "2.1010-2 \/ CTC-LABPCT",
+            "3.1010-2 \/ CTC-EEL004",
+            "5.1010-2 \/ CTC-EEL004"
+          ],
+          [
+            "3.1010-2 \/ CTC-EEL004",
+            "5.1010-2 \/ CTC-EEL004",
+            "6.1010-2 \/ CTC-LABPCT"
+          ],
+          [
+            "2.1510-2 \/ CTC-EEL009",
+            "3.1010-2 \/ CTC-EEL004",
+            "5.1010-2 \/ CTC-EEL004"
+          ],
+          [
+            "3.1010-2 \/ CTC-EEL004",
+            "4.1330-2 \/ CTC-LATEP",
+            "5.1010-2 \/ CTC-EEL004"
+          ]
+        ]
+      ],
+      "name": "Organiza\u00e7\u00e3o de Computadores I",
+      "semester": 3,
+      "prereq": [
+        "INE5406"
+      ],
+      "hours": 108
+    },
+    "INE5428": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            
+          ],
+          [
+            "3.0820-2 \/ CTC-ENS211",
+            "6.0820-2 \/ CTC-CTC103"
+          ]
+        ]
+      ],
+      "name": "Inform\u00e1tica e Sociedade",
+      "semester": 7,
+      "prereq": [
+        "INE5407"
+      ],
+      "hours": 72
+    },
+    "INE5414": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "2.1010-2 \/ CTC-CTC102",
+            "4.1010-2 \/ CTC-CTC209"
+          ]
+        ]
+      ],
+      "name": "Redes de Computadores I",
+      "semester": 4,
+      "prereq": [
+        "INE5404"
+      ],
+      "hours": 72
+    },
+    "INE5433": {
+      "credits": 6,
+      "schedule": [
+        [
+          [
+            "7.0820-2 \/ CTC-CTC105"
+          ]
+        ]
+      ],
+      "name": "Trabalho de Conclus\u00e3o de Curso I (TCC)",
+      "semester": 7,
+      "prereq": [
+        "INE5427",
+        "INE5453"
+      ],
+      "hours": 108
+    },
+    "INE5419": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "3.1330-2 \/ CTC-CTC107",
+            "5.1330-2 \/ CTC-ENS211"
+          ]
+        ]
+      ],
+      "name": "Engenharia de Software II",
+      "semester": 5,
+      "prereq": [
+        "INE5417"
+      ],
+      "hours": 72
+    },
+    "INE5403": {
+      "credits": 6,
+      "schedule": [
+        [
+          [
+            "2.0820-2 \/ CTC-CTC203",
+            "3.1010-2 \/ CTC-EEL008",
+            "5.0730-2 \/ CTC-ENS214"
+          ],
+          [
+            "2.0820-2 \/ CTC-EPS003",
+            "3.0820-2 \/ CTC-CTC112",
+            "5.0730-2 \/ CTC-CTC101"
+          ]
+        ]
+      ],
+      "name": "Fundamentos de Matem\u00e1tica Discreta para Computa\u00e7\u00e3o",
+      "semester": 1,
+      "prereq": [
+        
+      ],
+      "hours": 108
+    },
+    "INE5432": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "2.1620-2 \/ CTC-CTC107",
+            "4.1620-2 \/ CTC-CTC301"
+          ]
+        ]
+      ],
+      "name": "Banco de Dados II",
+      "semester": 7,
+      "prereq": [
+        "INE5423"
+      ],
+      "hours": 72
+    },
+    "MTM5161": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "2.1510-2 \/ CTC-CTC304",
+            "5.1620-2 \/ CTC-CTC304"
+          ],
+          [
+            "4.0730-2 \/ CTC-CTC207",
+            "6.0730-2 \/ CTC-CTC201"
+          ],
+          [
+            "4.1330-2 \/ CTC-CTC305",
+            "6.1330-2 \/ CTC-CTC209"
+          ],
+          [
+            "4.1330-2 \/ CTC-EQA023",
+            "6.1330-2 \/ CTC-ENS216"
+          ],
+          [
+            "3.1330-2 \/ CTC-CTC204",
+            "6.1330-2 \/ CTC-CTC203"
+          ],
+          [
+            "3.1330-2 \/ CTC-EPS003",
+            "6.1330-2 \/ CTC-CTC202"
+          ],
+          [
+            "2.1010-2 \/ CTC-CTC203",
+            "4.0730-2 \/ CTC-CTC203"
+          ],
+          [
+            "2.0730-2 \/ CTC-CTC207",
+            "4.0730-2 \/ CTC-CTC201"
+          ],
+          [
+            "4.1330-2 \/ CTC-CTC305",
+            "6.1330-2 \/ CTC-CTC209"
+          ],
+          [
+            "4.1010-2 \/ CTC-CTC205",
+            "6.1010-2 \/ EF1-EFI203"
+          ],
+          [
+            "4.1010-2 \/ CTC-CTC203",
+            "6.1010-2 \/ CTC-ENS214"
+          ],
+          [
+            "4.1010-2 \/ EF1-EFI402",
+            "6.1010-2 \/ EF1-EFI504"
+          ],
+          [
+            "4.1010-2 \/ CTC-CTC210",
+            "6.1010-2 \/ CTC-CTC209"
+          ],
+          [
+            "4.1010-2 \/ EF1-EFI503",
+            "6.1010-2 \/ EF1-EFI205"
+          ],
+          [
+            "4.1330-2 \/ EF1-EFI305",
+            "6.1330-2 \/ EF1-EFI401"
+          ],
+          [
+            "4.1010-2 \/ CFH-CFH309",
+            "6.1010-2 \/ CFH-CFH301"
+          ]
+        ]
+      ],
+      "name": "C\u00e1lculo A",
+      "semester": 1,
+      "prereq": [
+        
+      ],
+      "hours": 72
+    },
+    "INE5424": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "2.1010-2 \/ CTC-CTC109",
+            "4.1010-2 \/ CTC-CTC111"
+          ]
+        ]
+      ],
+      "name": "Sistemas Operacionais II",
+      "semester": 6,
+      "prereq": [
+        "INE5412"
+      ],
+      "hours": 72
+    },
+    "INE5409": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "3.1330-2 \/ CTC-LIICT8",
+            "6.1330-2 \/ CTC-EEL003"
+          ]
+        ]
+      ],
+      "name": "C\u00e1lculo Num\u00e9rico para Computa\u00e7\u00e3o",
+      "semester": 3,
+      "prereq": [
+        "MTM5512",
+        "MTM7174"
+      ],
+      "hours": 72
+    },
+    "MTM5512": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "3.1330-2 \/ EF1-EFI201",
+            "6.1510-2 \/ EF1-EFI201"
+          ],
+          [
+            "3.1330-2 \/ EF1-EFI204",
+            "6.1330-2 \/ EF1-EFI403"
+          ],
+          [
+            "2.1330-2 \/ EF1-EFI303",
+            "4.1330-2 \/ CTC-CTC202"
+          ],
+          [
+            "2.1330-2 \/ CTC-CTC304",
+            "4.1330-2 \/ CTC-CTC204"
+          ],
+          [
+            "2.1330-2 \/ CTC-CTC204",
+            "4.1330-2 \/ CTC-CTC203"
+          ],
+          [
+            "3.1010-2 \/ CTC-CTC209",
+            "6.1010-2 \/ CTC-CTC202"
+          ],
+          [
+            "3.1010-2 \/ EF1-EFI203",
+            "6.0820-2 \/ CTC-CTC106"
+          ],
+          [
+            "3.0730-2 \/ EF1-EFI303",
+            "5.0730-2 \/ EF1-EFI202"
+          ],
+          [
+            "3.0730-2 \/ CFM-CFMA06",
+            "5.0730-2 \/ CFM-CFMA06"
+          ],
+          [
+            "3.0730-2 \/ CTC-CTC204",
+            "6.1010-2 \/ CTC-CTC210"
+          ],
+          [
+            "3.1010-2 \/ EF1-EFI401",
+            "5.1010-2 \/ EF1-EFI201"
+          ],
+          [
+            "3.1510-2 \/ CTC-CTC202",
+            "5.1330-2 \/ CTC-CTC208"
+          ],
+          [
+            "2.1010-2 \/ CTC-EPS001",
+            "5.1010-2 \/ EF1-EFI502"
+          ],
+          [
+            "2.1010-2 \/ EF1-EFI503",
+            "5.1010-2 \/ EF1-EFI503"
+          ],
+          [
+            "4.0730-2 \/ CTC-CTC304",
+            "6.0730-2 \/ CTC-CTC208"
+          ],
+          [
+            "3.1830-2 \/ EF1-EFI503",
+            "5.2020-2 \/ EF1-EFI503"
+          ],
+          [
+            "3.1830-2 \/ EF1-EFI301",
+            "5.2020-2 \/ EF1-EFI402"
+          ],
+          [
+            "3.1330-2 \/ CFM-CFMA09",
+            "6.1510-2 \/ CFM-CFMB03"
+          ],
+          [
+            "2.1330-2 \/ EF1-EFI403",
+            "4.1330-2 \/ EF1-EFI403"
+          ],
+          [
+            "2.0820-2 \/ CTC-CTC201",
+            "4.0820-2 \/ CTC-CTC204"
+          ]
+        ]
+      ],
+      "name": "Geometria Anal\u00edtica",
+      "semester": 2,
+      "prereq": [
+        
+      ],
+      "hours": 72
+    },
+    "INE5453": {
+      "credits": 1,
+      "schedule": [
+        [
+          [
+            "5.0730-1 \/ CTC-CTC108"
+          ]
+        ]
+      ],
+      "name": "Introdu\u00e7\u00e3o ao Trabalho de Conclus\u00e3o de Curso",
+      "semester": 6,
+      "prereq": [
+        "INE5417"
+      ],
+      "hours": 18
+    },
+    "INE5415": {
+      "credits": 4,
+      "schedule": [
+        [
+          [
+            "3.0820-2 \/ CTC-CTC102",
+            "6.1010-2 \/ CTC-CTC206"
+          ]
+        ]
+      ],
+      "name": "Teoria da Computa\u00e7\u00e3o",
+      "semester": 4,
+      "prereq": [
+        "INE5403",
+        "INE5408"
+      ],
+      "hours": 72
+    }
+  },
+  "code": 208,
+  "final_class": "INE5434",
+  "min_hours": 12,
+  "max_hours": 28
 }

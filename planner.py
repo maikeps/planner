@@ -87,6 +87,7 @@ class Planner:
 
 			while (not self.check_min_hours(plan, new_class) or self.check_max_hours(plan, new_class)):
 				try:
+					print(plan, new_class, self.conflicts(plan, new_class))
 					if not self.conflicts(plan, new_class):
 						plan.append(new_class)
 
@@ -106,7 +107,107 @@ class Planner:
 		return plans
 
 	def conflicts(self, plan, _class):
+		course_schedule = self.get_schedule(_class)
+	
+		# para cada materia presente no plano
+		for aux in plan:
+			conflict_count = 0
+			aux_schedule = self.get_schedule(aux)
+
+			# itera sobre as diferentes turmas existentes
+			count = 0
+			for course_schedule_aux in course_schedule:
+				# itera sobre as turmas existentes de cada materia existente no plano
+				for course_option in course_schedule_aux:
+					
+					for aux_schedule_aux in aux_schedule:
+						for aux_option in aux_schedule_aux:
+							day_a = int(aux_option[0])
+							start_a = int(aux_option[1])
+							end_a = int(aux_option[2])
+							day_b = int(course_option[0])
+							start_b = int(course_option[1])
+							end_b = int(course_option[2])
+
+							# if day_b == day_a and ((start_a > start_b and start_a < end_b) or (start_b > start_a and start_b < end_a) or start_a == start_b or end_a == end_b):
+							A = start_a >= end_b
+							B = end_a <= start_b
+							if day_b == day_a and not A and not B:
+								conflict_count += 1
+								break
+					if conflict_count == len(aux_schedule):
+						count += 1
+			if count >= len(course_schedule):
+				return True
 		return False
+		# class_schedule = self.get_schedule(_class)
+	
+		# # para cada materia presente no plano
+		# for item in plan:
+		# 	conflict_count = 0
+		# 	item_schedule = self.get_schedule(item)
+
+		# 	# itera sobre as diferentes turmas existentes
+		# 	count = 0
+		# 	for class_schedule_aux in class_schedule:
+		# 		# itera sobre as turmas existentes de cada materia existente no plano
+		# 		for class_option in class_schedule_aux:
+		# 			for item_schedule_aux in item_schedule:
+		# 				for option in item_schedule_aux:
+		# 					day_a = int(option[0])
+		# 					start_a = int(option[1])
+		# 					end_a = int(option[2])
+		# 					day_b = int(class_option[0])
+		# 					start_b = int(class_option[1])
+		# 					end_b = int(class_option[2])
+
+		# 					A = start_a >= end_b
+		# 					B = end_a <= start_b
+		# 					if day_b == day_a and not A and not B:
+		# 						conflict_count += 1
+		# 						break
+
+		# 			if conflict_count == len(item_schedule):
+		# 				count += 1
+
+		# 	if count >= len(class_schedule):
+		# 		return True
+
+		# return False
+
+	def get_schedule(self, class_code):
+		schedule_aux = self.course_info['classes'][class_code]['schedule']
+		schedule = []
+		for item in schedule_aux[0]:
+			class_day = []
+			for i in range(len(item)):
+				aux = item[i][:8:]
+				day = aux[0]
+
+				start_hour = int(aux[2:4])
+				start_min = int(aux[4:6])
+				hours = int(aux[7])
+
+				offset = 50*hours
+				plus_hours = int(offset/60)
+				plus_min = offset % 60
+
+				end_hour = start_hour + plus_hours
+				end_min = (start_min + plus_min) % 60
+				if(start_min + plus_min >= 60):
+					end_hour += 1
+
+				if(end_hour > 16):
+					end_min = (end_min + 20) % 60
+					if int((end_min+20)/60) % 60 == 0:
+						end_hour += 1
+
+				start = str(start_hour) + str(start_min).zfill(2)
+				end = str(end_hour) + str(end_min).zfill(2)
+
+				class_day.append((day, start, end))
+			schedule.append(class_day)
+		return schedule
 
 # Tests
 p = Planner('208')
