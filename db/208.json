@@ -1,0 +1,379 @@
+{
+	"code": 208,
+	"min_hours": 12,
+	"max_hours": 28,
+	"final_class": "INE5434",
+	"classes": {
+		"INE5453": {
+			"credits": 1,
+			"name": "Introdu\u00e7\u00e3o ao Trabalho de Conclus\u00e3o de Curso",
+			"semester": 6,
+			"prereq": [
+				"INE5417"
+			],
+			"hours": 18
+		},
+		"INE5406": {
+			"credits": 5,
+			"name": "Sistemas Digitais",
+			"semester": 2,
+			"prereq": [
+				"EEL5105"
+			],
+			"hours": 90
+		},
+		"INE5414": {
+			"credits": 4,
+			"name": "Redes de Computadores I",
+			"semester": 4,
+			"prereq": [
+				"INE5404"
+			],
+			"hours": 72
+		},
+		"INE5422": {
+			"credits": 4,
+			"name": "Redes de Computadores II",
+			"semester": 5,
+			"prereq": [
+				"INE5414"
+			],
+			"hours": 72
+		},
+		"INE5405": {
+			"credits": 5,
+			"name": "Probabilidade e Estat\u00edstica",
+			"semester": 2,
+			"prereq": [
+				"MTM5161"
+			],
+			"hours": 90
+		},
+		"INE5412": {
+			"credits": 4,
+			"name": "Sistemas Operacionais I",
+			"semester": 4,
+			"prereq": [
+				"INE5410",
+				"INE5411"
+			],
+			"hours": 72
+		},
+		"INE5434": {
+			"credits": 9,
+			"name": "Trabalho de Conclus\u00e3o de Curso II (TCC)",
+			"semester": 8,
+			"prereq": [
+				"INE5433"
+			],
+			"hours": 162
+		},
+		"INE5401": {
+			"credits": 2,
+			"name": "Introdu\u00e7\u00e3o \u00e0 Computa\u00e7\u00e3o",
+			"semester": 1,
+			"prereq": [
+				
+			],
+			"hours": 36
+		},
+		"INE5403": {
+			"credits": 6,
+			"name": "Fundamentos de Matem\u00e1tica Discreta para Computa\u00e7\u00e3o",
+			"semester": 1,
+			"prereq": [
+				
+			],
+			"hours": 108
+		},
+		"EEL5105": {
+			"credits": 5,
+			"name": "Circuitos e T\u00e9cnicas Digitais",
+			"semester": 1,
+			"prereq": [
+				
+			],
+			"hours": 90
+		},
+		"INE5410": {
+			"credits": 4,
+			"name": "Programa\u00e7\u00e3o Concorrente",
+			"semester": 3,
+			"prereq": [
+				"INE5404"
+			],
+			"hours": 72
+		},
+		"INE5418": {
+			"credits": 4,
+			"name": "Computa\u00e7\u00e3o Distribu\u00edda",
+			"semester": 5,
+			"prereq": [
+				"INE5412",
+				"INE5414"
+			],
+			"hours": 72
+		},
+		"INE5427": {
+			"credits": 4,
+			"name": "Planejamento e Gest\u00e3o de Projetos",
+			"semester": 6,
+			"prereq": [
+				"INE5417"
+			],
+			"hours": 72
+		},
+		"INE5404": {
+			"credits": 6,
+			"name": "Programa\u00e7\u00e3o Orientada a Objetos II",
+			"semester": 2,
+			"prereq": [
+				"INE5402"
+			],
+			"hours": 108
+		},
+		"INE5419": {
+			"credits": 4,
+			"name": "Engenharia de Software II",
+			"semester": 5,
+			"prereq": [
+				"INE5417"
+			],
+			"hours": 72
+		},
+		"INE5430": {
+			"credits": 4,
+			"name": "Intelig\u00eancia Artificial",
+			"semester": 6,
+			"prereq": [
+				"INE5405",
+				"INE5413",
+				"INE5416"
+			],
+			"hours": 72
+		},
+		"INE5416": {
+			"credits": 5,
+			"name": "Paradigmas de Programa\u00e7\u00e3o",
+			"semester": 4,
+			"prereq": [
+				"INE5408"
+			],
+			"hours": 90
+		},
+		"INE5421": {
+			"credits": 4,
+			"name": "Linguagens Formais e Compiladores",
+			"semester": 5,
+			"prereq": [
+				"INE5415"
+			],
+			"hours": 72
+		},
+		"INE5424": {
+			"credits": 4,
+			"name": "Sistemas Operacionais II",
+			"semester": 6,
+			"prereq": [
+				"INE5412"
+			],
+			"hours": 72
+		},
+		"INE5429": {
+			"credits": 4,
+			"name": "Seguran\u00e7a em Computa\u00e7\u00e3o",
+			"semester": 7,
+			"prereq": [
+				"INE5403",
+				"INE5414"
+			],
+			"hours": 72
+		},
+		"MTM5161": {
+			"credits": 4,
+			"name": "C\u00e1lculo A",
+			"semester": 1,
+			"prereq": [
+				
+			],
+			"hours": 72
+		},
+		"INE5431": {
+			"credits": 4,
+			"name": "Sistemas Multim\u00eddia",
+			"semester": 7,
+			"prereq": [
+				"INE5414"
+			],
+			"hours": 72
+		},
+		"INE5417": {
+			"credits": 5,
+			"name": "Engenharia de Software I",
+			"semester": 4,
+			"prereq": [
+				"INE5408"
+			],
+			"hours": 90
+		},
+		"INE5415": {
+			"credits": 4,
+			"name": "Teoria da Computa\u00e7\u00e3o",
+			"semester": 4,
+			"prereq": [
+				"INE5403",
+				"INE5408"
+			],
+			"hours": 72
+		},
+		"INE5433": {
+			"credits": 6,
+			"name": "Trabalho de Conclus\u00e3o de Curso I (TCC)",
+			"semester": 7,
+			"prereq": [
+				"INE5427",
+				"INE5453"
+			],
+			"hours": 108
+		},
+		"MTM5245": {
+			"credits": 4,
+			"name": "\u00c1lgebra Linear",
+			"semester": 3,
+			"prereq": [
+				"MTM5512"
+			],
+			"hours": 72
+		},
+		"INE5420": {
+			"credits": 4,
+			"name": "Computa\u00e7\u00e3o Gr\u00e1fica",
+			"semester": 5,
+			"prereq": [
+				"INE5408",
+				"MTM5245",
+				"MTM7174"
+			],
+			"hours": 72
+		},
+		"INE5426": {
+			"credits": 4,
+			"name": "Constru\u00e7\u00e3o de Compiladores",
+			"semester": 6,
+			"prereq": [
+				"INE5421"
+			],
+			"hours": 72
+		},
+		"INE5413": {
+			"credits": 4,
+			"name": "Grafos",
+			"semester": 4,
+			"prereq": [
+				"INE5403",
+				"INE5408"
+			],
+			"hours": 72
+		},
+		"MTM5512": {
+			"credits": 4,
+			"name": "Geometria Anal\u00edtica",
+			"semester": 2,
+			"prereq": [
+				
+			],
+			"hours": 72
+		},
+		"INE5423": {
+			"credits": 4,
+			"name": "Banco de Dados I",
+			"semester": 5,
+			"prereq": [
+				"INE5408"
+			],
+			"hours": 72
+		},
+		"INE5402": {
+			"credits": 6,
+			"name": "Programa\u00e7\u00e3o Orientada a Objetos I",
+			"semester": 1,
+			"prereq": [
+				
+			],
+			"hours": 108
+		},
+		"INE5411": {
+			"credits": 6,
+			"name": "Organiza\u00e7\u00e3o de Computadores I",
+			"semester": 3,
+			"prereq": [
+				"INE5406"
+			],
+			"hours": 108
+		},
+		"INE5425": {
+			"credits": 4,
+			"name": "Modelagem e Simula\u00e7\u00e3o",
+			"semester": 6,
+			"prereq": [
+				"INE5405"
+			],
+			"hours": 72
+		},
+		"INE5407": {
+			"credits": 3,
+			"name": "Ci\u00eancia, Tecnologia e Sociedade",
+			"semester": 2,
+			"prereq": [
+				
+			],
+			"hours": 54
+		},
+		"INE5432": {
+			"credits": 4,
+			"name": "Banco de Dados II",
+			"semester": 7,
+			"prereq": [
+				"INE5423"
+			],
+			"hours": 72
+		},
+		"INE5428": {
+			"credits": 4,
+			"name": "Inform\u00e1tica e Sociedade",
+			"semester": 7,
+			"prereq": [
+				"INE5407"
+			],
+			"hours": 72
+		},
+		"INE5408": {
+			"credits": 6,
+			"name": "Estruturas de Dados",
+			"semester": 3,
+			"prereq": [
+				"INE5404"
+			],
+			"hours": 108
+		},
+		"MTM7174": {
+			"credits": 4,
+			"name": "C\u00e1lculo B para Computa\u00e7\u00e3o",
+			"semester": 2,
+			"prereq": [
+				"MTM5161"
+			],
+			"hours": 72
+		},
+		"INE5409": {
+			"credits": 4,
+			"name": "C\u00e1lculo Num\u00e9rico para Computa\u00e7\u00e3o",
+			"semester": 3,
+			"prereq": [
+				"MTM5512",
+				"MTM7174"
+			],
+			"hours": 72
+		}
+	}
+}
