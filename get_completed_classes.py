@@ -4,7 +4,7 @@ import http.cookiejar
 from bs4 import BeautifulSoup
 import sys
 
-def get_completed(username, pw):
+def get_completed(username, pw, current_semester=False):
 	jar = http.cookiejar.CookieJar()
 	opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar), urllib.request.HTTPSHandler(debuglevel=0))
 	resp = opener.open('https://cagr.sistemas.ufsc.br/modules/aluno')
@@ -40,4 +40,19 @@ def get_completed(username, pw):
 		if suff_grades and suff_freq:
 			completed.append(tags[i*7].next)
 
+	if current_semester:
+		resp = opener.open('https://cagr.sistemas.ufsc.br/modules/aluno/espelhoMatricula/')
+		soup = BeautifulSoup(resp)
+		completed = completed + get_to_complete(soup)
+
 	return completed
+
+def get_to_complete(soup):
+	current = []
+
+	table = soup.find('table', id='j_id119:j_id202')
+	tags = table.find_all('td')
+	for i in range(int(len(tags)/10)):
+		current.append(tags[i*10+1].next)
+
+	return current

@@ -1,5 +1,6 @@
 import json
 import sys
+import getpass
 from graph import *
 import get_completed_classes
 
@@ -89,7 +90,6 @@ class Planner:
 
 			while (not self.check_min_hours(plan, new_class) or self.check_max_hours(plan, new_class)):
 				try:
-					print(plan, new_class, self.conflicts(plan, new_class))
 					if not self.conflicts(plan, new_class):
 						plan.append(new_class)
 
@@ -178,11 +178,15 @@ class Planner:
 		return schedule
 
 # Tests
-username, pw = sys.argv[1], sys.argv[2]
-p = Planner('208')
-plans = p.build_plans(get_completed_classes.get_completed(username, pw))
-for i in range(len(plans)):
-	plan = plans[i]
-	print('\n################### Semester ' + str(i+1) + ' ###################\n')
-	for code in plan:
-		print(code + ' - ' + p.course_info['classes'][code]['name'])
+if __name__ == '__main__':
+	username = input('UFSC Registration Number:\n')
+	pw = getpass.getpass('CAGR Password:\n')
+
+	# username, pw = sys.argv[1], sys.argv[2]
+	p = Planner('208')
+	plans = p.build_plans(get_completed_classes.get_completed(username, pw, True))
+	for i in range(len(plans)):
+		plan = plans[i]
+		print('\n################### Semester ' + str(i+1) + ' ###################\n')
+		for code in plan:
+			print(code + ' - ' + p.course_info['classes'][code]['name'])
