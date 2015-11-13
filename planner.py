@@ -1,5 +1,7 @@
 import json
+import sys
 from graph import *
+import get_completed_classes
 
 class Planner:
 	def __init__(self, course_code):
@@ -140,40 +142,6 @@ class Planner:
 			if count >= len(course_schedule):
 				return True
 		return False
-		# class_schedule = self.get_schedule(_class)
-	
-		# # para cada materia presente no plano
-		# for item in plan:
-		# 	conflict_count = 0
-		# 	item_schedule = self.get_schedule(item)
-
-		# 	# itera sobre as diferentes turmas existentes
-		# 	count = 0
-		# 	for class_schedule_aux in class_schedule:
-		# 		# itera sobre as turmas existentes de cada materia existente no plano
-		# 		for class_option in class_schedule_aux:
-		# 			for item_schedule_aux in item_schedule:
-		# 				for option in item_schedule_aux:
-		# 					day_a = int(option[0])
-		# 					start_a = int(option[1])
-		# 					end_a = int(option[2])
-		# 					day_b = int(class_option[0])
-		# 					start_b = int(class_option[1])
-		# 					end_b = int(class_option[2])
-
-		# 					A = start_a >= end_b
-		# 					B = end_a <= start_b
-		# 					if day_b == day_a and not A and not B:
-		# 						conflict_count += 1
-		# 						break
-
-		# 			if conflict_count == len(item_schedule):
-		# 				count += 1
-
-		# 	if count >= len(class_schedule):
-		# 		return True
-
-		# return False
 
 	def get_schedule(self, class_code):
 		schedule_aux = self.course_info['classes'][class_code]['schedule']
@@ -210,8 +178,9 @@ class Planner:
 		return schedule
 
 # Tests
+username, pw = sys.argv[1], sys.argv[2]
 p = Planner('208')
-plans = p.build_plans([])
+plans = p.build_plans(get_completed_classes.get_completed(username, pw))
 for i in range(len(plans)):
 	plan = plans[i]
 	print('\n################### Semester ' + str(i+1) + ' ###################\n')
