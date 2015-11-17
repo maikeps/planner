@@ -1,0 +1,323 @@
+{
+    "code": 102,
+    "final_class": "",
+    "min_hours": 18,
+    "max_hours": 40,
+    "classes": {
+        "ACL5130": {
+            "credits": 2,
+            "name": "Biossegurança e Boas Práticas de Laboratório",
+            "semester": 1,
+            "prereq": [],
+            "hours": 36
+        }, 
+        "BEG5111": {
+            "credits": 3,
+            "name": "Biologia Celular e Embriologia",
+            "semester": 1,
+            "prereq": [],
+            "hours": 54
+        }, 
+        "CFS5161": {
+            "credits": 3,
+            "name": "Fisiologia I",
+            "semester": 1,
+            "prereq": [],
+            "hours": 54
+        }, 
+        "CIF5310": {
+            "credits": 3,
+            "name": "Introdução ao Estudo de Medicamentos",
+            "semester": 1,
+            "prereq": [],
+            "hours": 54
+        }, 
+        "MOR5120": {
+            "credits": 4,
+            "name": "Histologia",
+            "semester": 1,
+            "prereq": [],
+            "hours": 72
+        }, 
+        "MOR5220": {
+            "credits": 3,
+            "name": "Anatomia",
+            "semester": 1,
+            "prereq": [],
+            "hours": 54
+        }, 
+        "QMC5150": {
+            "credits": 4,
+            "name": "Química Geral e Inorgânica ",
+            "semester": 1,
+            "prereq": [],
+            "hours": 72
+        }, 
+        "QMC5227": {
+            "credits": 2,
+            "name": "Química Orgânica I",
+            "semester": 1,
+            "prereq": [],
+            "hours": 36
+        }, 
+        "CFS5162": {
+            "credits": 4,
+            "name": "Fisiologia II",
+            "semester": 2,
+            "prereq": ["CFS5161"],
+            "hours": 72
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }, 
+        "": {
+            "credits": ,
+            "name": "",
+            "semester": ,
+            "prereq": [],
+            "hours": 
+        }
+    }
+}
