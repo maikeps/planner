@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Planner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container">
+      {% for i in range(plans|length) %}
+        {% set plan = plans[i] %}
+        <h4>Semestre {{ i+1 }}</h4>
+        {% for item in plan %}
+            <ul><li>{{ item }}<br/></li></ul>
+        {% endfor %}
+        <br/>
+      {% endfor %}
+    </div>
+  </body>
+</html>

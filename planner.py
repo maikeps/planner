@@ -76,7 +76,8 @@ class Planner:
 
 		return hours <= self.course_info['max_hours']
 
-	def build_plans(self, completed_classes):
+	def build_plans(self, username, pw):
+		completed_classes = get_completed_classes.get_completed(username, pw, True)
 		completed_classes_aux = completed_classes
 		options = self.get_available_options(completed_classes_aux)
 		magnitudes = self.calculate_magnitude(options)
@@ -184,7 +185,7 @@ if __name__ == '__main__':
 
 	# username, pw = sys.argv[1], sys.argv[2]
 	p = Planner('208')
-	plans = p.build_plans(get_completed_classes.get_completed(username, pw, True))
+	plans = p.build_plans(username, pw)
 	for i in range(len(plans)):
 		plan = plans[i]
 		print('\n################### Semester ' + str(i+1) + ' ###################\n')
