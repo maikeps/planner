@@ -50,7 +50,6 @@ def get_completed(username, pw, current_semester=False):
 def get_to_complete(soup):
 	current = []
 
-	# table = soup.find('table', id='j_id119:j_id202')
 	table = soup.find_all('table', {'class': 'rich-table'})[0]
 	tags = table.find_all('td')
 	for i in range(int(len(tags)/10)):
